@@ -140,7 +140,7 @@
 }
 
 .list-item >    .input.task {
-  width: 226px
+  width: 226px;
 }
 
 .button.delete .delete-btn-img {
@@ -156,19 +156,19 @@
 /* Completed */
 
 .todo-list#completed-tasks .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .todo-list .list-item .input.task {
-  display: none
+  display: none;
 }
 
 .todo-list .list-item.edit-mode .input.task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo-list .list-item.edit-mode label {
