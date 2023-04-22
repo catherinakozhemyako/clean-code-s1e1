@@ -13,12 +13,21 @@
   text-align: right;
 }
 
+.img-content {
+    margin: 0;
+    padding: 0;
+  }
+
 .top-content .top-img {
   width: 100%;
 }
 
 .top-content .more-inf {
   font-family: fantasy, cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 @media (max-width: 768px) {
@@ -77,7 +86,7 @@
 /* Heading */
 
 .list-title,
-.label.new-task-label {
+.new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,7 +115,7 @@
 
 /* New Task */
 
-.label.new-task-label {
+.new-task-label {
   display: block;
   margin: 0 0 20px;
 }
